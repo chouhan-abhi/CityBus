@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="mainfest" href="manifest.json">
+	<script type="text/javascript"src="script.js"></script>
+</head>
+<body >
+	<main id="map">
+		
+	<script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKBGYwYzm49Vd2hzGia9nLufsHMk8Z3nc&callback=initMap"></script>
+	</main>
+
+	<div id="infoBoard" onclick="hideTab()">		
+		<div id="suggestionBox">
+			<img src="bus.png" id="busDetail">
+			<div id="details">
+				<b>TR4</b><br>
+				something
+			</div>
+		</div>
+		<div id="suggestionBox">
+			<img src="bus.png" id="busDetail">
+			<div id="details">
+				<b>TR4</b><br>
+				something
+			</div>
+		</div>
+		<div id="suggestionBox">
+			<img src="bus.png" id="busDetail">
+			<div id="details">
+				<b>TR4</b><br>
+				something
+			</div>
+		</div>
+		<div id="suggestionBox">
+			<img src="bus.png" id="busDetail">
+			<div id="details">
+				<b>TR4</b><br>
+				something
+			</div>
+		</div>
+	</div>
+	<footer id="footer" onclick="infoTabAnnimation()">
+		<img src="menu.png" id="menuButton">
+		<input type="text" name="search" placeholder="Search..." id="right" onfocus="keyboardConfig()">		
+	</footer>
+</body>
+</html>
